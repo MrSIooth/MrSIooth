@@ -1,10 +1,9 @@
-FROM python:3.10-alpine
+FROM whanos-javascript
 
-RUN apk add --no-cache bash
-SHELL ["/bin/bash", "-c"]
+RUN npm install -g typescript@4.4.3
 
-COPY . /app
-WORKDIR /app
+RUN tsc
 
-RUN pip install -r requirements.txt
-CMD ["python", "-m", "app"]
+EXPOSE 3000
+
+RUN find . -name "*.ts" -type f -not -path "./node_modules/*" -delete
