@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: flask
-    image: registry.digitalocean.com/thisisatest/whanos-c-image
+    image: registry.digitalocean.com/thisisatest/whanos-python-image
     ports:
     - containerPort: 5000
