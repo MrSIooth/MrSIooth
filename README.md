@@ -29,8 +29,5 @@
 ## <b> Let's Connect..!</b><img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
 <br>
 <div align='left'>
-
-<a href="mailto:victor.guyot@epitech.eu" target="_blank">
-<img src="https://img.shields.io/badge/outlook:  MrSlooth-%23EA4335.svg?style=for-the-badge&logo=outlook&logoColor=white" t=mail style="margin-bottom: 5px;" />
 	
 </div>
